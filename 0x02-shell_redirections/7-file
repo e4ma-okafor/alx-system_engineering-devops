@@ -1,4 +1,2 @@
 #!/bin/bash
-filename='*\'Best School'\*0*****:)'
-content='Best School\n'
-echo -e $content > "$filename"
+echo 'Best School' > \\\*\\\\"'\"Best School\"\\'"\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*:\)
