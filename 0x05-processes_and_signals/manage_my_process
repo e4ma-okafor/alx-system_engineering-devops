@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# Indefinitely writes 'I am alive' to file with sleep 2 between iterations
-while true
+#Writes a message to a file
+while :
 do
-    echo "I am alive!" >> /tmp/my_process
-    sleep 2
+	echo "I am alive!" >> /tmp/my_process
+	sleep 2
 done
